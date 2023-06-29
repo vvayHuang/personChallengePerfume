@@ -1,0 +1,26 @@
+.fz-16px{
+    font-size: 16px;
+}
+.fz-24px{
+    font-size: 24px;
+}
+.fz-32px{
+    font-size: 32px;
+}
+.lh-36px{
+    line-height: 36px;
+}
+.lh-48px{
+    line-height: 48px;
+}
+.px-lg-110px{
+    @include media-breakpoint-up(sm){
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+}
+.backdrop-blur-5px{
+    @include media-breakpoint-up(sm){
+        backdrop-filter: blur(5px);
+    }
+}

@@ -1,0 +1,101 @@
+
+.hero{
+    background: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true') center / cover no-repeat;
+    height: 480px;
+    a{
+        width: 100%;
+        font-size: 28px;
+        line-height: 42px;
+
+    }
+    @include media-breakpoint-up(sm){
+        height: 870px;
+        h1{
+            font-size: 40px;
+            line-height: 60px;
+            margin-bottom: 0;
+        }
+        a{
+            border-radius: 30px;
+            width: 75%;
+            font-size: 24px;
+
+        }
+    }
+}
+.product-info{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    @include media-breakpoint-up(sm){
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+    }
+    .regular-img{
+        height: 350px;
+        @include media-breakpoint-up(sm){
+            height: 555px;
+        }
+    }
+    .long-img{
+        height: 680px;
+        @include media-breakpoint-up(sm){
+            height: 1080px;
+        }
+    }
+    ul{
+        margin-bottom: 20px;
+        @include media-breakpoint-up(sm){
+            margin-bottom: 60px;
+
+        }
+    }
+    li{
+        margin-bottom: 20px;
+        @include media-breakpoint-up(sm){
+            margin-bottom: 52px;
+
+        }
+    }
+}
+.product-list{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .card-img{
+        height: 350px;
+        overflow: hidden;
+        img{
+            transition:ease 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        
+    }
+    @include media-breakpoint-up(sm){
+        padding-top: 32px;
+        padding-bottom: 32px;
+        .card-img{
+            height: 540px;
+        }
+
+    }
+}
+.Bottle-Recycling{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    @include media-breakpoint-up(sm){
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    img{
+        height: 520px;
+    }
+}
+.product-items{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    img{
+        height: 250px;
+    }
+}
