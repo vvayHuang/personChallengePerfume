@@ -64,13 +64,6 @@
     .card-img{
         height: 350px;
         overflow: hidden;
-        img{
-            transition:ease 1s;
-            &:hover{
-                transform: scale(1.5);
-            }
-        }
-        
     }
     @include media-breakpoint-up(sm){
         padding-top: 32px;

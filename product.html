@@ -21,11 +21,11 @@
                       <span class="visually-hidden">unread messages</span>
                     </span>
                   </button>
-                  <button class="btn d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                  <button class="btn d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasStart" aria-controls="offcanvasStart">
                     <span class="material-icons text-secondary">menu</span>
                   </button>
               </div>
-              <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+              <div class="offcanvas offcanvas-start"  tabindex="-1" id="offcanvasStart" aria-labelledby="offcanvasStartLabel">
                 <div class="offcanvas-header">
                     <a class="navbar-brand py-0" href="index.html"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfume.png?raw=true" alt="perfume-logo"></a>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -34,22 +34,22 @@
                   <div>
                     <ul class="navbar-nav text-center">
                         <li class="nav-item border-bottom border-bottom-md-0">
-                          <a class="nav-link bg-md-transparent bg-secondary  text-md-secondary text-white d-block py-3 py-md-0 px-3 text-secondary" href="product.html"><span class="material-icons d-md-inline-block d-none">
+                          <a class="nav-link text-decoration-none bg-md-transparent bg-secondary  text-md-secondary text-white d-block py-3 py-md-0 px-3 text-secondary active" href="product.html"><span class="material-icons d-md-inline-block d-none">
                             house
                             </span>Product</a>
                         </li>
                         <li class="nav-item border-bottom border-bottom-md-0">
-                          <a class="nav-link bg-md-transparent bg-secondary  text-md-secondary text-white d-block py-3 py-md-0 px-3 text-secondary active" href="#"><span class="material-icons d-md-inline-block d-none">
+                          <a class="nav-link text-decoration-none bg-md-transparent bg-secondary  text-md-secondary text-white d-block py-3 py-md-0 px-3 text-secondary" href="#"><span class="material-icons d-md-inline-block d-none">
                               person
                               </span>log in</a>
                         </li>
                         <li class="nav-item border-bottom border-bottom-md-0">
-                          <a class="nav-link bg-md-transparent bg-secondary  text-md-secondary text-white d-block py-3 py-md-0 px-3 text-secondary" href="#"><span class="material-icons d-md-inline-block d-none">
+                          <a class="nav-link text-decoration-none bg-md-transparent bg-secondary  text-md-secondary text-white d-block py-3 py-md-0 px-3 text-secondary" href="#"><span class="material-icons d-md-inline-block d-none">
                               favorite
                               </span>Wishlist</a>
                         </li>
                         <li class="nav-item border-bottom border-bottom-md-0">
-                          <a class="nav-link bg-md-transparent bg-secondary  text-md-secondary text-white d-block py-3 py-md-0 px-3 text-secondary" href="#"><span class="material-icons d-md-inline-block d-none">
+                          <a class="nav-link text-decoration-none bg-md-transparent bg-secondary  text-md-secondary text-white d-block py-3 py-md-0 px-3 text-secondary" href="#"><span class="material-icons d-md-inline-block d-none">
                               shopping_cart
                               </span>Cart(3)</a>
                         </li>
@@ -64,12 +64,12 @@
         <div class="bg-brown" style="padding-top: 14px;padding-bottom: 14px;">
             <div class="container">
                 <ul class="d-flex flex-nowrap list-unstyled mb-0 overflow-scroll text-nowrap">
-                    <li><a href="#" class="text-white pe-3">CHANEL</a></li>
-                    <li><a href="#" class="text-white pe-3">Jo Malone</a></li>
-                    <li><a href="#" class="text-white pe-3">Curology</a></li>
-                    <li><a href="#" class="text-white pe-3">Dior</a></li>
-                    <li><a href="#" class="text-white pe-3">Chloe</a></li>
-                    <li><a href="#" class="text-white pe-3">ZARA</a></li>
+                    <li><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover pe-3">CHANEL</a></li>
+                    <li><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover pe-3">Jo Malone</a></li>
+                    <li><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover pe-3">Curology</a></li>
+                    <li><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover pe-3">Dior</a></li>
+                    <li><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover pe-3">Chloe</a></li>
+                    <li><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover pe-3">ZARA</a></li>
                 </ul>
             </div>
         </div>
@@ -77,19 +77,43 @@
             <div class="gx-lg-3 gy-5 row row-cols-2 row-cols-lg-4">
                 <div class="col">
                     <div class="card border-0">
-                        <img src="https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=379&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=379&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
+                        </div>
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,380</span>
                             <span class="card-text fz-16px fw-light text-decoration-line-through text-secondary">NT$1,580</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                                    shopping_cart
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 h-100 rounded-0">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1530630458144-014709e10016?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley" style="object-position:bottom";>
+                        </div>
+                        <div class="card-body p-0 position-relative">
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
+                            <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
+                            <span class="card-text fz-16px fw-light me-2">NT$1,380</span>
+                            <span class="card-text fz-16px fw-light text-decoration-line-through text-secondary">NT$1,580</span>
+                        </div>
+                        <div class="card-body p-0">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
+                                    favorite
+                                </span></a>
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -97,19 +121,21 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1530630458144-014709e10016?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1566977776052-6e61e35bf9be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
+                        </div>
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,380</span>
                             <span class="card-text fz-16px fw-light text-decoration-line-through text-secondary">NT$1,580</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -117,19 +143,21 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1566977776052-6e61e35bf9be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1578996834254-13d1b661a5ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjd8MTE1ODAyMTR8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
+                        </div>
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,380</span>
                             <span class="card-text fz-16px fw-light text-decoration-line-through text-secondary">NT$1,580</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -137,38 +165,20 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1578996834254-13d1b661a5ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjd8MTE1ODAyMTR8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
-                        <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
-                            <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
-                            <span class="card-text fz-16px fw-light me-2">NT$1,380</span>
-                            <span class="card-text fz-16px fw-light text-decoration-line-through text-secondary">NT$1,580</span>
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1582211594533-268f4f1edcb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
                         </div>
-                        <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
-                                    favorite
-                                </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
-                                    shopping_cart
-                                </span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1582211594533-268f4f1edcb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,180</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -176,18 +186,20 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1594913785162-e678a0c23ee9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1594913785162-e678a0c23ee9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
+                        </div>
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,080</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -195,18 +207,20 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1551500519-b59aed76227b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1551500519-b59aed76227b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
+                        </div>
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,280</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -214,18 +228,20 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1544468266-6a8948003cd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1544468266-6a8948003cd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
+                        </div>
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,380</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -233,18 +249,20 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1585120040315-2241b774ad0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1585120040315-2241b774ad0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
+                        </div>
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,180</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -252,18 +270,20 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1592247691114-69a06342531a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1592247691114-69a06342531a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
+                        </div cl>
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,580</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -271,18 +291,20 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1559264729-91549dddfc45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1559264729-91549dddfc45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
+                        </div>
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,980</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -290,18 +312,20 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="https://images.unsplash.com/photo-1594913366159-1832cfbe7ca1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-                            class="card-img-top object-fit-cover rounded-0 w-100" alt="Poppy & Barley">
+                        <div class="overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1594913366159-1832cfbe7ca1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                                class="card-img-top object-fit-cover rounded-0 w-100 img-hover-transform" alt="Poppy & Barley">
+                        </div>
                         <div class="card-body p-0 position-relative">
-                            <a href="#" class="stretched-link"><h4 class="card-title fz-24px lh-36px fw-semibold">Poppy & Barley</h4></a>
+                            <h4 class="card-title fz-24px lh-36px fw-semibold"><a href="#" class="stretched-link text-decoration-none link-primary">Poppy & Barley</a></h4>
                             <h5 class="card-text fz-16px fw-light">Jo Malone</h5>
                             <span class="card-text fz-16px fw-light me-2">NT$1,380</span>
                         </div>
                         <div class="card-body p-0">
-                            <a href="#" class="card-link text-brown"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown"><span class="material-icons" style="font-size: 20px;">
                                     favorite
                                 </span></a>
-                            <a href="#" class="card-link text-brown ms-0"><span class="material-icons" style="font-size: 20px;">
+                            <a href="#" class="card-link link-brown ms-0"><span class="material-icons" style="font-size: 20px;">
                                     shopping_cart
                                 </span></a>
                         </div>
@@ -318,19 +342,15 @@
         </div>
     </main>
     <footer>
-        <section class="subscribe"
-            style="background: url('https://images.unsplash.com/photo-1532413992378-f169ac26fff0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80') center/cover;height: 600px;">
+        <section class="subscribe" style="background: url('https://images.unsplash.com/photo-1532413992378-f169ac26fff0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80') center/cover;height: 600px;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4" style="margin-top: 312px;">
                         <h5 class="fz-32px lh-48px fw-semibold text-secondary mb-4">記得<br> 訂閱以獲取更多資訊！</h5>
                         <div class="input-group">
-                            <input type="email" class="border-2 border-brown form-control"
-                                style="padding-top: 20px;padding-bottom: 20px;padding-left: 16px;"
-                                placeholder="Your email address" aria-label="Input group example"
-                                aria-describedby="btnGroupAddon">
+                            <input type="email" class="border-2 border-brown form-control" style="padding-top: 20px;padding-bottom: 20px;padding-left: 16px;" placeholder="Your email address" aria-label="Input group example" aria-describedby="btnGroupAddon">
                             <button class="btn btn-brown px-4" type="button">Subscribe</button></button>
-                        </div>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -338,15 +358,12 @@
         <section class="bg-brown" style="padding-top: 20px;padding-bottom: 20px;">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between">
-                    <a href="index.html" style="margin-right: 20px;"><img
-                            src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfumewhite.png?raw=true"
-                            alt="Perfume"></a>
-                    <span class="text-white fw-medium me-auto" style="font-size: 14px;line-height: 21px;">© 2020. All
-                        Rights Reserved.</span>
+                    <a href="index.html" style="margin-right: 20px;"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfumewhite.png?raw=true" alt="Perfume"></a>
+                    <span class="text-white fw-medium me-auto" style="font-size: 14px;line-height: 21px;">© 2020. All Rights Reserved.</span>
                     <ul class="list-unstyled d-lg-flex d-none mb-0">
-                        <li><a href="product.html" class="text-white px-3">Product</a></li>
-                        <li><a href="#" class="text-white px-3">Blog</a></li>
-                        <li><a href="#" class="text-white px-3">Contact</a></li>
+                        <li><a href="product.html" class="link-light text-decoration-none px-3">Product</a></li>
+                        <li><a href="#" class="link-light text-decoration-none px-3">Blog</a></li>
+                        <li><a href="#" class="link-light text-decoration-none px-3">Contact</a></li>
                     </ul>
                 </div>
             </div>
