@@ -11082,7 +11082,7 @@ a {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .backdrop-blur-5px {
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);

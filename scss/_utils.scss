@@ -20,7 +20,7 @@
     }
 }
 .backdrop-blur-5px{
-    @include media-breakpoint-up(md){
+    @include media-breakpoint-up(lg){
         backdrop-filter: blur(5px);
     }
 }
